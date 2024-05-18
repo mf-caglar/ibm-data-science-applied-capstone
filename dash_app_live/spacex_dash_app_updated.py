@@ -10,8 +10,8 @@ from folium.plugins import MousePosition
 from folium.features import DivIcon
 
 # Read the SpaceX launch data into a pandas dataframe
-URL = 'https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/spacex_launch_geo.csv'
-spacex_df=pd.read_csv(URL)
+
+spacex_df=pd.read_csv("spacex_df_folium.csv")
 spacex_df = spacex_df[['Launch Site', 'Lat', 'Long', 'class']]
 launch_sites_df = spacex_df.groupby(['Launch Site'], as_index=False).first()
 launch_sites_df = launch_sites_df[['Launch Site', 'Lat', 'Long']]
