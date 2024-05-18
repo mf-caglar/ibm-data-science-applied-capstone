@@ -6,8 +6,7 @@
 * Explore the notebooks where data collection, data cleaning, data processing, data analysis, training of machine learning models, and predictions are coded.
 * I created a Plotly dashboard for better data visualizations and deployed it using [Render](https://render.com/). Check it [here](https://ibm-data-science-applied-capstone.onrender.com/). (It may have some delay.)
 ### Data Details
-* The dataset includes launch dates ranging from June 2010 to November 2020, covering 335 Falcon-9 launches during this period.
-* The model correctly predicted the outcome of the launch on May 18, 2024. Despite this, given the vast amount of data, it is important to acknowledge that the model's performance may still require improvements.
+* The model correctly predicted the outcome of the launch on May 18, 2024. Despite this, given the vast amount of data, it is important to acknowledge that the model's performance may still require improvements. This data includes 95 launches from June 2010 to november 2020 but in fact there are 335 launches to date.
 * The model has an 89% precision for positive cases with a 67% recall.
 ### Future Work
 * The available open-source data provides opportunities for further study and improvements.
