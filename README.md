@@ -10,4 +10,4 @@
 * The model has an 89% precision for positive cases with a 67% recall.
 ### Future Work
 * The available open-source data provides opportunities for further study and improvements.
-* As the domain is relatively new to me, expanding the project to include more data and exploring other classification or regression projects with a broader scope could be thought.
+* Expanding the project to include more data and exploring other classification or regression projects with a broader scope could be good choice.
